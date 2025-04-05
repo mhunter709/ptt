@@ -14,7 +14,7 @@ After PTTServer.py launches, then launch FLRig -- if you launch FLRig first, and
 
 pttgui.py - This is a simple program that generates a PTT button in a box that you can click with a mouse. When clicked, it sends a signal to the PTTServer.py
 program on the rig computer to trigger the PTT on the 6-pin Data jack. When you click the PTT button again, the PTT is released on the rig. In the code of the
-pttgui.py software you will need to change the remote computer local network IP address to whatever the IP address is of the computer connected to the rig. 
+pttgui.py software you will need to change the remote computer local network IP address to whatever the IP address is of the computer connected to the rig. You may also need to play with the code to figure out which serial port to put in there that triggers the PTT on the Data jack. 
 
 Using a terminal, launch pttgui.py with the following command "python3 pttgui.py"
 
