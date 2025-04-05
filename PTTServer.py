@@ -1,6 +1,7 @@
 import socket
 import serial
 
+# Software to run on the computer connected to the FT-450D 9-pin serial DB-9 CAT jack
 # Configure the serial connection to the FT-450D
 ser = serial.Serial('/dev/cu.usbserial-141110', baudrate=38400, rtscts=False)
 
