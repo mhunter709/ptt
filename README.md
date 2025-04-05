@@ -1,6 +1,6 @@
 I'm working on developing a system to connect to my Yaesu FT-450D remotely from another computer for digital modes and SSB.
 CAT control for the FT-450D is provided by FLRig connected to the 9-pin serial DB-9 CAT jack through DigiRig Mobile.
-I'm experimenting with routing both the digital mode audio and voice audio through the FT-450D 6-pin Data jack, also connected to the computer cia DigiRig mobile.
+I'm experimenting with routing both the digital mode audio and voice audio through the FT-450D 6-pin Data jack, also connected to the computer via DigiRig mobile.
 In this set up, clicking PTT on FLRig running remotely on another computer, connecting to FLRig running on the rig computer, triggers the PTT for the microphone
 jack on the FT-450D, but not the Data jack on the back.
 To solve this problem, I wrote two small pieces of software in Python
