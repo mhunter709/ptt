@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Configure the connection to Computer 1
-server_ip = '10.0.0.108'  # Replace with the IP address of Computer 1
+server_ip = '10.0.0.108'  # Replace with the IP address of Computer Connected to Rig
 server_port = 50007
 
 # Create a socket connection
