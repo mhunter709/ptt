@@ -21,6 +21,8 @@ pttgui.py software you will need to change the remote computer local network IP 
 
 Using a terminal, launch pttgui.py with the following command "python3 pttgui.py"
 
+I have not tested this software outside my local home network. If the remote computer is on another network, you'll likely need to open ports on the network your rig computer is, do things like SSH tunneling, implement any needed security, etc., all things I've not really learned about yet or tried. 
+
 Using AudioRelay running on the remote and rig computers I have sucessfully routed the audio from a microphone connected to my remote computer, to the rig
 computer and out through the 6-pin Data jack and successfully had one QSO (although remotes were my audio was undermodulated, something I'm working on). 
 
